@@ -1,0 +1,28 @@
+{
+  "name": "campaign-manager",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "concurrently": "^7.0.0",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^2.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.31.2",
+    "localtunnel": "^2.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "path-parse": "^1.0.7",
+    "pug": "^3.0.2",
+    "stripe": "^8.195.0"
+  }
+}
